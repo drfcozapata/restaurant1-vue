@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**** @Author: Francisco Zapata ****/
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-weight: normal;
+}
+
+html {
+	box-sizing: border-box;
+	/* font-size: 62.5%; */
+	scroll-padding-top: 5.5rem;
+	scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+	list-style: none;
+}
+
+/** Custom Properties **/
+body {
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+img {
+	width: 100%;
+}
+.container {
+	width: 90%;
+	max-width: 110rem;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.container {
+		width: 80%;
+	}
+}
