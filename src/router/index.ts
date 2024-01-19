@@ -1,4 +1,4 @@
-import AppVue from '@/App.vue';
+import App from '@/App.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
@@ -7,7 +7,7 @@ const router = createRouter({
 		{
 			path: '/',
 			name: 'home',
-			component: AppVue.vue,
+			component: App.vue,
 		},
 	],
 });

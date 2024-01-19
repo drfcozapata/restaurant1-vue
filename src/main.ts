@@ -8,14 +8,28 @@ import router from './router';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
-	faUtensils,
 	faBars,
-	faSearch,
+	faEye,
 	faHeart,
+	faSearch,
 	faShoppingCart,
+	faStar,
+	faStarHalfStroke,
+	faTimes,
+	faUtensils,
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faUtensils, faBars, faSearch, faHeart, faShoppingCart);
+library.add(
+	faBars,
+	faEye,
+	faHeart,
+	faSearch,
+	faShoppingCart,
+	faStar,
+	faStarHalfStroke,
+	faTimes,
+	faUtensils
+);
 
 const app = createApp(App);
 app.use(createPinia());
