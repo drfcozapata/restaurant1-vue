@@ -15,7 +15,7 @@
 			>
 				Free and Fast
 			</h2>
-			<div class="mt-10 flex flex-wrap gap-5 4xl:gap-7 justify-between">
+			<div class="mt-10 xl:px-10 2xl:px-15 3xl:px-20 4xl:px-32">
 				<OrderForm />
 			</div>
 		</div>

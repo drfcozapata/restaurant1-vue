@@ -6,6 +6,7 @@
 	import OurMenu from '@/views/menu/OurMenu.vue';
 	import CustomerReview from '@/views/reviews/CustomerReview.vue';
 	import OrderNow from '@/views/order/OrderNow.vue';
+	import Footer from './views/footer/Footer.vue';
 </script>
 
 <template>
@@ -16,4 +17,5 @@
 	<OurMenu />
 	<CustomerReview />
 	<OrderNow />
+	<Footer />
 </template>
