@@ -40,7 +40,7 @@
 						class="px-4 2xl:px-6 3xl:px-4 4xl:px-8 py-3 4xl:py-5 border-2 bg-gray-100 text-[#192a56] flex gap-3 items-center justify-center rounded text-base 2xl:text-[18px] 4xl:text-[22px] mb-2 lg:mb-0"
 					>
 						<font-awesome-icon
-							:icon="['fas', 'star']"
+							:icon="['fas', 'truck-fast']"
 							class="text-green-600 text-4xl 4xl:text-5xl"
 						/>
 						Free Delivery
@@ -49,7 +49,7 @@
 						class="px-5 2xl:px-5 3xl:px-4 4xl:px-8 py-3 4xl:py-5 border-2 bg-gray-100 text-[#192a56] flex gap-3 items-center justify-center rounded text-base 3xl:text-[18px] 4xl:text-[22px] mb-2 lg:mb-0"
 					>
 						<font-awesome-icon
-							:icon="['fas', 'star']"
+							:icon="['fas', 'dollar-sign']"
 							class="text-green-600 text-4xl 4xl:text-5xl"
 						/>
 						Easy Payment
@@ -58,7 +58,7 @@
 						class="px-5 2xl:px56 3xl:px-4 4xl:px-8 py-3 4xl:py-5 border-2 bg-gray-100 text-[#192a56] flex gap-3 items-center justify-center rounded text-base 3xl:text-[18px] 4xl:text-[22px]"
 					>
 						<font-awesome-icon
-							:icon="['fas', 'star']"
+							:icon="['fas', 'headset']"
 							class="text-green-600 text-4xl 4xl:text-5xl"
 						/>
 						24/7 Service

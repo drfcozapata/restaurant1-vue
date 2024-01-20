@@ -9,7 +9,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
 	faBars,
+	faDollarSign,
 	faEye,
+	faHeadset,
 	faHeart,
 	faQuoteRight,
 	faSearch,
@@ -17,12 +19,15 @@ import {
 	faStar,
 	faStarHalfStroke,
 	faTimes,
+	faTruckFast,
 	faUtensils,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
 	faBars,
+	faDollarSign,
 	faEye,
+	faHeadset,
 	faHeart,
 	faQuoteRight,
 	faSearch,
@@ -30,6 +35,7 @@ library.add(
 	faStar,
 	faStarHalfStroke,
 	faTimes,
+	faTruckFast,
 	faUtensils
 );
 
