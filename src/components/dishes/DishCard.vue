@@ -75,4 +75,14 @@
 		right: 2rem;
 		opacity: 1;
 	}
+	@media (max-width: 1280px) {
+		.box .eye {
+			left: 2rem;
+			opacity: 1;
+		}
+		.box .heart {
+			right: 2rem;
+			opacity: 1;
+		}
+	}
 </style>
