@@ -4,11 +4,11 @@
 
 <template>
 	<div
-		class="w-[350px] lg:w-[32%] 4xl:w-[490px] h-[350px] 4xl:h-[490px] p-4 3xl:p-8 bg-white shadow-lg flex flex-col items-center rounded-lg relative"
+		class="w-[350px] lg:w-[32%] 4xl:w-[490px] h-[350px] 4xl:h-[490px] p-4 3xl:p-8 bg-white shadow-lg flex flex-col items-center rounded-lg relative box"
 	>
 		<a
 			href="#"
-			class="text-[#192a56] hover:text-white text-center absolute top-8 left-8 w-[52px] 3xl:w-14 h-[52px] 3xl:h-14 rounded-full bg-gray-100 hover:bg-green-600"
+			class="text-[#192a56] hover:text-white text-center absolute top-8 w-[52px] 3xl:w-14 h-[52px] 3xl:h-14 rounded-full bg-gray-100 hover:bg-green-600 eye"
 		>
 			<font-awesome-icon
 				:icon="['fas', 'eye']"
@@ -17,7 +17,7 @@
 		</a>
 		<a
 			href="#"
-			class="text-[#192a56] hover:text-white text-center absolute top-8 right-8 w-[52px] 3xl:w-14 h-[52px] 3xl:h-14 rounded-full bg-gray-100 hover:bg-green-600"
+			class="text-[#192a56] hover:text-white text-center absolute top-8 w-[52px] 3xl:w-14 h-[52px] 3xl:h-14 rounded-full bg-gray-100 hover:bg-green-600 heart"
 		>
 			<font-awesome-icon
 				:icon="['fas', 'heart']"
@@ -57,3 +57,22 @@
 		</div>
 	</div>
 </template>
+
+<style scoped>
+	.box .eye {
+		left: -2rem;
+		opacity: 0;
+	}
+	.box .heart {
+		right: -2rem;
+		opacity: 0;
+	}
+	.box:hover .eye {
+		left: 2rem;
+		opacity: 1;
+	}
+	.box:hover .heart {
+		right: 2rem;
+		opacity: 1;
+	}
+</style>
