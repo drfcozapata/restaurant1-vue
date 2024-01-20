@@ -25,7 +25,11 @@
 	>
 		<LogoNavbarVue />
 
-		<Navbar class="navbar lg:block" :class="isVisible ? '' : 'hidden'" />
+		<Navbar
+			class="navbar lg:block"
+			:class="isVisible ? '' : 'hidden'"
+			@changeIsVisible="isVisible = false"
+		/>
 
 		<IconsBar @showMenu="toggleMenu" @showModal="showModal" :isVisible="isVisible" />
 

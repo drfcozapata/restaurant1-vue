@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	//
+	defineEmits(['changeIsVisible']);
 </script>
 
 <template>
@@ -9,6 +9,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#home"
+					@click="$emit('changeIsVisible')"
 					>Home</a
 				>
 			</li>
@@ -16,6 +17,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#dishes"
+					@click="$emit('changeIsVisible')"
 					>Dishes</a
 				>
 			</li>
@@ -23,6 +25,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#about"
+					@click="$emit('changeIsVisible')"
 					>About</a
 				>
 			</li>
@@ -30,6 +33,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#menu"
+					@click="$emit('changeIsVisible')"
 					>Menu</a
 				>
 			</li>
@@ -37,6 +41,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#review"
+					@click="$emit('changeIsVisible')"
 					>Review</a
 				>
 			</li>
@@ -44,6 +49,7 @@
 				<a
 					class="py-2 px-4 3xl:px-6 text-[#777] active:text-white active:bg-green-600 hover:text-white hover:bg-green-600 rounded-lg"
 					href="#order"
+					@click="$emit('changeIsVisible')"
 					>Order</a
 				>
 			</li>
